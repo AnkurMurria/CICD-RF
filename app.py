@@ -31,38 +31,47 @@ def prediction_service():
           in: query
           type: number
           required: true
+          default: 100
         - name: Slag
           in: query
           type: number
           required: true
+          default: 100
         - name: Flyash
           in: query
           type: number
           required: true
+          default: 100
         - name: Water
           in: query
           type: number
           required: true
+          default: 100
         - name: SP
           in: query
           type: number
           required: true
+          default: 100
         - name: CoarseAggr
           in: query
           type: number
           required: true
+          default: 100
         - name: FineAggr
           in: query
           type: number
           required: true
+          default: 100
         - name: SLUMP
           in: query
           type: number
           required: true
+          default: 100
         - name: FLOW
           in: query
           type: number
           required: true
+          default: 100
     
     responses:
         200:
