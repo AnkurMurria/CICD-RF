@@ -24,7 +24,7 @@ def index():
 #swagger in means query/form
 @app.route('/predict')
 def prediction_service():
-    """This is for the Swagger UI
+    """This is for the Swagger UI Test
     ---
     parameters:
         - name: Cement
